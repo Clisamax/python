@@ -1,0 +1,8 @@
+Ordem de precedencia
+1 ()
+2 **
+3 * / // %
+4 + -
+
+quebra de linha == /n
+para não quebrar a linha == end=' '
