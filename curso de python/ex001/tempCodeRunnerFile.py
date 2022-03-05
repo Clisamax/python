@@ -1,1 +1,0 @@
-print('divisão inteira {} e potência {}'.format(di, e))
