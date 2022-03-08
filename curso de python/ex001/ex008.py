@@ -1,8 +1,5 @@
-
-y=0
-
-x = int(input('Gerar a tabuada do numero: ')) 
-
-while y < 10:
-    y += 1
-    print(f"{x} x {y} = ", x*y)
+#Conversor de medidas
+n1 = int(input('Digite um numero '))
+c = n1 * 100
+m = n1 * 1000
+print('{}m, tem {}cm,  e tem {}mm, '.format(n1, c, m))

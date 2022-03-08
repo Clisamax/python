@@ -1,7 +1,9 @@
-n1= int(input('Digite o valor: '))
-n2= int(input('Digite o valor: '))
-s = n1 + n2
-print('A soma entre, {} e {} vale {}'.format(n1, n2, s))
+# Dissecando uma variável
+a = input('Digite Algo: ')
+print('O tipo primitivo desse valor é ', type(a))
+print ('Só tem espaços? ', a.isspace())
+print ('É alfabético? ', a.isalpha())
+print ('É alfanumérico? ', a.isalnum())
 
 
 

@@ -1,3 +1,4 @@
+#sorteando uma ordem na lista
 from random import shuffle
 n1=str(input('Primeiro nome: '))
 n2=str(input('Segundo nome: '))

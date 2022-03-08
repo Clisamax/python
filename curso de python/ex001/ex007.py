@@ -1,7 +1,4 @@
-import math
-num = int(input('Digite um numero '))
-raiz = math.sqrt(num)
-print('A raiz de {} é igual a {}'.format(num, math.floor(raiz))) 
-
-
-
+# Média aritimética
+n1 = float(input('Digite a primeira nota '))
+n2 = float(input('Digite a segunda nota '))
+print('A media das notas é {:.1f}'.format((n1 + n2) / 2))

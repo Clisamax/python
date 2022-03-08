@@ -1,8 +1,3 @@
-from unittest.mock import AsyncMagicMixin
-
-
-a = input('Digite Algo: ')
-print('O tipo primitivo desse valor é ', type(a))
-print ('Só tem espaços? ', a.isspace())
-print ('É alfabético? ', a.isalpha())
-print ('É alfanumérico? ', a.isalnum())
+# Antecessor e sucessor
+n1 = int(input('Digite um numero '))
+print('Vc digitou {}, Seu antecessor é {}, Seu secussor é {}'.format(n1, (n1-1), (n1+1)))
