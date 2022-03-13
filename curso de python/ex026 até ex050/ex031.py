@@ -1,3 +1,4 @@
+# custo de viagem
 dist = float(input('Qual a distancia da viagem? '))
 if dist <= 200:
     pas = dist * 0.50
