@@ -9,5 +9,10 @@ if opção == 1:
     total = preço - (preço * 10 / 100)
 elif opção == 2:
      total = preço + (preço * 5 / 100)
+elif opção == 3:
+    total = preço 
+elif opção == 4:
+    total = preço + (preço * 20 / 100)
      
-print(a)
+print('{:=^40}'.format('LOJAS MKAGOMES'))    
+print(total)
