@@ -1,4 +1,4 @@
-
+# gerenciador de pagamentos
 print('{:=^40}'.format('LOJAS MKAGOMES'))  
 preço = float(input('Preço das compras: R$'))
 print(''' Formas de pagamentos 
