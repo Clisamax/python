@@ -1,3 +1,4 @@
+# grupo da Maioridade
 from datetime import date
 atual = date.today().year
 totmaior = 0
