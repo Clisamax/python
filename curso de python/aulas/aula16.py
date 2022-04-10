@@ -1,7 +1,7 @@
 # TUPLAS
 lanche = ('Hamburguer', 'Suco', 'Pizza', 'Batata Frita' )
 
-for comiuda in lanche:
+for comida in lanche:
     print(f'Eu vou comer {comida} ')
 
 for cont in range(0, len(lanche)):
@@ -25,3 +25,4 @@ print(c.count(5))
 print(c.index(5))
 # em que posição está o (5) depois da posição (1)
 print(c.index(5, 1))
+
