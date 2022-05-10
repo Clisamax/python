@@ -5,6 +5,7 @@ num.insert(2,0)
 print(num)
 print(f'Essa lista tem {len(num)} elementos.')
 # apresentar valor e posição
+# c == posição, v == valor
 for c, v in enumerate(num):
     print(f'Na posição {c} encontrei o valor {v}!')
 # digitar 5 valores a partir do comando input 
