@@ -1,8 +1,6 @@
 a = []
 mai = 0
 men = 0
-maiP = []
-menP = []
 for i in range(0,5):
     a.append(int(input(f'Digite um valor para a posição {i}: ')))
     print(a)
