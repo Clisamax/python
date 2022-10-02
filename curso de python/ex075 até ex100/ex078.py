@@ -13,7 +13,7 @@ for i in range(0,5):
             men = a[i]
            
 print(f'Voçê digitou os valores {a}')
-print(f'O maior número digitado foi{mai} nas posições ', end = ' ')
+print(f'O maior número digitado foi {mai} nas posições ', end = ' ')
 for i , v in enumerate(a):
     if v == mai:
         print(f'{i}...', end = ' ')
@@ -22,5 +22,4 @@ print()
 print(f'O menor número digitado foi {men} nas posições ', end = ' ')
 for i , v in enumerate(a):
     if v == men:
-        print(f'{i}...', end = ' ') 
-print()
+        print(f'{i}...', end = ' ')
